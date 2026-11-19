@@ -4,3 +4,6 @@ terraform {
 
 resource "null_resource" "project6" {
 }
+output "project_name" {
+  value = "Version Control Infrastructure"
+}
